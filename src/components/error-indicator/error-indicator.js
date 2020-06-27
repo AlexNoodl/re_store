@@ -3,7 +3,7 @@ import React from "react";
 import "./error-indicator.css";
 
 const ErrorIndicator = () => {
-   return Error;
+   return <div>Error</div>;
 };
 
 export default ErrorIndicator;

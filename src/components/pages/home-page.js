@@ -1,14 +1,15 @@
 import React from "react";
 
 import BookList from "../book-list/";
+import ShoppingCartTable from "../shopping-cart-table";
 
 const HomePage = () => {
-   const books = [
-      { id: 1, title: "React в действии", author: "Mark T. Tomas" },
-      { id: 2, title: "Vue.js в действии", author: "Erick Hanchett" },
-      { id: 3, title: "Javascript & JQuery", author: "David McFarland" },
-   ];
-   return <BookList books={books} />;
+   return (
+      <div>
+         <BookList />
+         <ShoppingCartTable />
+      </div>
+   );
 };
 
 export default HomePage;
