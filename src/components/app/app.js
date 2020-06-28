@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 
-import withBookstoreService, { withBooksService } from "../hoc";
+import withBookstoreService from "../hoc";
 import { HomePage, CartPage } from "../pages";
 import ShopHeader from "../shop-header";
 
